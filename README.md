@@ -9,6 +9,16 @@
 
 * The dataset consists of mainly categorical features and is a binary classification problem. Therefore, we will use supervised machine learning algorithms (logistic regression) for this specific problem. As we have a labeled output in the training data, we will train our model with this data and try to predict an output for the "TARGET" column of the test dataset. Our best model showed an accuracy of 0.96 on training and test datasets but classified the data in the test data into one class. Using a ROC curve gave us an area of 0.56 under the graph, meaning that our model can be improved further.
 
+
+## **Initial Look**
+
+class 'pandas.core.frame.DataFrame'>
+RangeIndex: 76020 entries, 0 to 76019
+Columns: 371 entries, ID to TARGET
+dtypes: float64(111), int64(260)
+memory usage: 215.2 MB
+
+
 ## **Summary of Workdone**
 
 ## Data:
@@ -36,9 +46,13 @@
 * Define:
   * The dataset consists of mainly categorical features and is a binary classification problem. Therefore, we will use supervised machine learning algorithms (logistic regression) for this specific problem. As we 
     have a labeled output in the training data, we will train our model with this data and try to predict an output for the "TARGET" column of the test dataset. Since there are a lot of features, it will be impossible to use them all so we wrote a code to identify the most important features and used the top 5.
+
+* Feature importance:
+  * I used a feature importance since it is very difficult and inefficient to use all the 371 features for the dataset. I took the 5 most important features and input those in the model for training the data.
+ 
     
   * Models
-    * Linear Regression model
+    * Logistic Regression model
  
 
 ### Performance Comparison

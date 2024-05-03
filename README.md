@@ -7,7 +7,7 @@
   
 ## Overview
 
-* The dataset consists of mainly categorical features and is a binary classification problem. Therefore, we will use supervised machine learning algorithms (logistic regression) for this specific problem. As we have a labeled output in the training data, we will train our model with this data and try to predict an output for the "TARGET" column of the test dataset. Our best model showed an accuracy of 0.96 on training and test datasets but classified the data in the test data into one class. Using a ROC curve gave us an area of 0.56 under the graph, meaning that our model can be improved further.
+* The dataset consists of mainly categorical features and is a binary classification problem. Therefore, we used logistic regression for this specific problem. As we have a labeled output in the training data, we will train our model with this data and try to predict an output for the "TARGET" column of the test dataset. Our best model showed an accuracy of 0.96 on training and test datasets but classified the data in the test data into one class. Using a ROC curve gave us an area of 0.56 under the graph, meaning that our model can be improved further.
 
 
 ## **Initial Look**

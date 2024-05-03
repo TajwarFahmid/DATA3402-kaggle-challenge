@@ -28,6 +28,9 @@
 * ROC curves
 * Correlation matrix (Not the best looking graph)
 
+![image](https://github.com/TajwarFahmid/DATA3402-kaggle-challenge/assets/123596299/62d62974-3468-4b09-a541-69fdf9c936ba)
+
+
 ### Problem Formulation
 
 * Define:
@@ -41,6 +44,8 @@
 ### Performance Comparison
 
 * Used the accuracy comparison between a training and validation set, used the F1, Recall and Precision scores but they weren't of much use. Generated a ROC curve which showed an area of 0.56.
+
+![image](https://github.com/TajwarFahmid/DATA3402-kaggle-challenge/assets/123596299/8d318bd6-1cca-4f98-8de7-1c1f41bb2133)
 
 
 ### Conclusions

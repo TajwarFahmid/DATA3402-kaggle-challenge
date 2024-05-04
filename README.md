@@ -66,10 +66,6 @@ memory usage: 215.2 MB
 
 * The model is working, but there is significant room for improvement.
 
-### Future Work
-
-* Computer vision, image classification.
-
 
 ### Data
 
